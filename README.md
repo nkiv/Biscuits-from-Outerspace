@@ -47,9 +47,3 @@ They are so valuable in this universe that youll become hunted for having them.
 - Space Background
 - Start Menu
 - Game over Screen
-
-Log:
--- Day 1 --
-4:20 am 8/24 quick break and then starting the assets
-My idea for the game so far, I want to make a 2d space shooter like very old games. The theme of the game is incorperated within the mechanics of the game. The enemy players will randomly drop a biscuit. Once the player recieves its first biscuit then a new enemy will become active... the hunter, it will spawn off screen and begin shooting the player. Hunting the player for their biscuit. The more biscuits the player gathers the more 'risk' they gain by having precious cargo. The more biscuits will make more hunters spawn.
-bed time 5:07 am time spent 1hr

@@ -24,7 +24,7 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image("space", "./assets/space-better-1000.png");
+    this.load.image("space", "./assets/spacer.png");
     this.load.image("player", "./assets/ship2.png");
     this.load.image("asteroid", "./assets/asteroid.png");
     this.load.image("biscuit", "./assets/biscuit.png");
@@ -96,6 +96,7 @@ export class GameScene extends Phaser.Scene {
       const x = Phaser.Math.Between(-3750, 4250);
       const y = Phaser.Math.Between(-2750, 3250);
       const asteroid = this.physics.add.image(x, y, "asteroid");
+      asteroid.setScale(1.5);
 
       asteroid.setVelocityX(Phaser.Math.Between(-50, 50));
       asteroid.setVelocityY(Phaser.Math.Between(-50, 50));
