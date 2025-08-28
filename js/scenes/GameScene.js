@@ -67,7 +67,7 @@ export class GameScene extends Phaser.Scene {
   createPlayer() {
     this.player = this.physics.add.image(400, 300, "player");
     this.player.setDamping(true);
-    this.player.setDrag(0.15);
+    this.player.setDrag(0.7);
     this.player.body.setMaxVelocity(600);
     this.player.body.setCollideWorldBounds(true, 1, 1);
 
